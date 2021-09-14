@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 1rem;
+  background-color: grey;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.container input,
+.container button {
+  margin-top: 20px;
+  border-radius: 20%;
+
+  padding: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
